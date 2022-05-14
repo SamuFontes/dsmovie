@@ -71,12 +71,12 @@ a:hover {
     padding: 40px 0;
 }
 
-.dsmovie-card{
-width: 100%;
+.dsmovie-card {
+    width: 100%;
 }
 
 .dsmovie-card img {
-    width: 100% ;
+    width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
@@ -100,7 +100,8 @@ width: 100%;
     text-align: center;
 }
 
-.dsmovie-btn, .dsmovie-btn:hover {
+.dsmovie-btn,
+.dsmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -111,4 +112,10 @@ width: 100%;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+}
+
+.dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+
 }
